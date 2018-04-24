@@ -20,7 +20,7 @@ Note: Consider using python virtualenv or similar to maintain and manage project
 
 ## Usage
 
-```bash
+```
   _____          _ _               _     __  __            _
  |  __ \        | (_)             | |   |  \/  |          | |
  | |__) |___  __| |_ _ __ ___  ___| |_  | \  / |_   _  ___| |__
@@ -42,7 +42,7 @@ The optional `--output <file name>` will output JSON format to the specified fil
 
 ## Example
 
-```json
+```json,
 » python redirect_much.py --input hosts
 
   _____          _ _               _     __  __            _
