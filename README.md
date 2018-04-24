@@ -20,7 +20,7 @@ Note: Consider using python virtualenv or similar to maintain and manage project
 
 ## Usage
 
-```python
+```bash
   _____          _ _               _     __  __            _
  |  __ \        | (_)             | |   |  \/  |          | |
  | |__) |___  __| |_ _ __ ___  ___| |_  | \  / |_   _  ___| |__
