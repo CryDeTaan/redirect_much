@@ -37,7 +37,7 @@ optional arguments:
   --output <file name>  Output file name (Optional)
 
 ```
-The default output will retrun the results in JSON format to stdout.
+The default output will return the results in JSON format to stdout.
 The optional `--output <file name>` will output JSON format to the specified file name
 
 ## Example
