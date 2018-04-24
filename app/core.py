@@ -2,6 +2,7 @@
 import os
 import requests
 import json
+import re
 
 json_output = {}
 
@@ -89,7 +90,7 @@ class Check_host:
         :return: None
         """
 
-        if response.status_code == 301:
+        if re.match('30\d', str(response.status_code)):
             return response.headers['Location']
 
         elif response.status_code == 200:
