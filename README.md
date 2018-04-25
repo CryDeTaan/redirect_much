@@ -15,6 +15,10 @@ I wanted to see from the list of FQDNs, how many of the cert errors I am getting
 » git clone https://github.com/CryDeTaan/redirect_much.git
 » pip install -r requirements.txt
 ```
+Temporary fix for logging
+```
+» touch var/log/Redirect\ Much.log 
+```
 
 Note: Consider using python virtualenv or similar to maintain and manage projects dependencies.  
 
